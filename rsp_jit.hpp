@@ -14,7 +14,11 @@
 
 extern "C"
 {
+#ifdef PARALLEL_RSP_BAKED_LIGHTNING
 #include <lightning.h>
+#else
+#include <lightning/lightning.h>
+#endif
 }
 
 namespace RSP
