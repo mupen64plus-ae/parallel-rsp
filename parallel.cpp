@@ -3,6 +3,7 @@
 #else
 #include "rsp_jit.hpp"
 #endif
+#include <stdarg.h>
 #include <stdint.h>
 
 #include "m64p_plugin.h"
